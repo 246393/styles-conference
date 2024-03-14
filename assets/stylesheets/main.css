@@ -22,11 +22,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-<head>
-    <meta charset="utf-8">
-    <title>Style Conference </title>
-    <link rel="stylesheet" href="assets/stylesheets/main.css">
-</head>
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -50,6 +46,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /*
   ========================================
   Grid
@@ -69,16 +66,10 @@ table {
   padding-left: 30px;
   padding-right: 30px;
   width: 960px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
 }
 
-.container,
-.grid {
-  margin: 0 auto;
-  width: 960px;
-}
+
+
 
 /*
   ========================================
@@ -104,6 +95,11 @@ h1, h3, h4, h5, p {
 .btn-alt {
   border: 1px solid #dfe2e5;
   padding: 10px 30px;
+}
+
+.container{
+  margin:0 auto;
+  padding; left:30px;
 }
 
 /*
